@@ -29,15 +29,15 @@ Paws.App = (function () {
         'r53': {href: '/route53/home#hosted-zones:'},
         'rds': {href: '/rds/home#dbinstances:'},
         'red': {href: '/redshift/home#cluster-list:'},
-        'ss3': {href: '/s3/home'},
+        's3': {href: '/s3/home'},
         'vpc': {href: '/vpc/home'},
         'cft': {href: '/cloudformation/home'},
         'da': {href: '/lambda/home'},
         // Pages
-        'img': {href: '/ec2/v2/home#Images:sort=name'},
+        'ami': {href: '/ec2/v2/home#Images:sort=name'},
         'vol': {href: '/ec2/v2/home#Volumes:sort=desc:createTime'},
         'elb': {href: '/ec2/v2/home#LoadBalancers:'},
-        'scg': {href: '/ec2/v2/home#SecurityGroups:sort=groupId'},
+        'sg': {href: '/ec2/v2/home#SecurityGroups:sort=groupId'},
         // Navbar
         'j': {func: ['navbar', 'next']},
         'k': {func: ['navbar', 'prev']},
